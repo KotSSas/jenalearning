@@ -21,6 +21,7 @@ public class Read {
         if (in == null){
             throw new IllegalArgumentException("Error. File NOT found!");
         }
+        System.out.println("read process");
         model.read(in,"");
 
     }
